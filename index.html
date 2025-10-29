@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>打开押沙龙</title>
+    <script>
+      // 尝试唤起押沙龙 App
+      window.location.href = "zhongdu://pageshare?id=4412";
+      // 如果没装 App，1秒后回网页
+      setTimeout(() => {
+        window.location.href = "http://ny.zdline.cn/mobile/pageShare/index.html?id=4412";
+      }, 1000);
+    </script>
+  </head>
+  <body>
+    <p>正在打开押沙龙...</p>
+  </body>
+</html>
